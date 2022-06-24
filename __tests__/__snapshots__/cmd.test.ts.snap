@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cmd read buffer as input 2`] = `
+"1
+2
+"
+`;

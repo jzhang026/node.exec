@@ -7,11 +7,12 @@ The API and semantics prioritize clarity and simplicity over ease.
 
 ## API
 
-class Cmd(command :string, ...args :string[]) implements CmdOptions
-Create a new command structure for running a sub-process
+1. Create a new command structure for running a sub-process
+`class Cmd(command :string, ...args :string[])` implements `CmdOptions`
 
-function startCmd(command :string, args? :string[], options? :CmdOptions)
-Create & start a command. Thin wrapper around new Cmd... with strong TypeScript typings.
+2. Create & start a command. Thin wrapper around new Cmd... with strong TypeScript typings.
+`function startCmd(command :string, args? :string[], options? :CmdOptions)`
+
 
 ```typescript
 interface CmdOptions {
